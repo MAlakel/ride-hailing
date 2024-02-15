@@ -1,11 +1,9 @@
 import { Module } from '@nestjs/common';
-import { OfferService } from './offer/offer.service';
-import { OfferController } from './offer/offer.controller';
-import { ProviderModule } from './offer/providers/provider.module';
+import { OfferModule } from './offer/offer.module';
 import { ConfigModule } from '@nestjs/config';
 @Module({
-  imports: [ConfigModule.forRoot({ isGlobal: true }), ProviderModule],
-  controllers: [OfferController],
-  providers: [OfferService],
+  imports: [ConfigModule.forRoot({ isGlobal: true }), OfferModule],
+  controllers: [],
+  providers: [],
 })
 export class AppModule { }
