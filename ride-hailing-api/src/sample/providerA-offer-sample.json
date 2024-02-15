@@ -1,0 +1,32 @@
+{
+  "offer_id": "123456789",
+  "provider": "RideHail Inc.",
+  "vehicle_type": "Sedan",
+  "estimated_pickup_time": "2024-02-14T15:00:00",
+  "estimated_arrival_time": "2024-02-14T15:40:00",
+  "fare_estimate": {
+    "currency": "USD",
+    "amount": 15.50,
+    "currency_symbol": "$"
+  },
+  "driver": {
+    "name": "John Doe",
+    "rating": 4.8,
+    "vehicle_details": {
+      "make": "Toyota",
+      "model": "Camry",
+      "color": "Black",
+      "license_plate": "ABC123"
+    }
+  },
+  "pickup_location": {
+    "latitude": 40.7128,
+    "longitude": -74.0060,
+    "address": "123 Main St, Anytown"
+  },
+  "destination_location": {
+    "latitude": 40.7128,
+    "longitude": -74.0060,
+    "address": "456 Elm St, Anytown"
+  }
+}
