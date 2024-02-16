@@ -17,14 +17,14 @@ The frontend app, built with React, provides a user interface for users to inter
    - Go into directory `ride-hailing-api`
    - Install dependencies with `npm install`.
    - Start the server with `npm start`.
-   - Access the API at `http://localhost:3000`.
+   - Access the API at `http://localhost:3001`.
 
 2. **Ride Hailing Frontend App**:
    - Clone the repository.
    - Go into directory `ride-hailing-app`
    - Install dependencies with `npm install`.
    - Start the app with `npm start`.
-   - Access the app at `http://localhost:3001`.
+   - Access the app at `http://localhost:3000`.
 
 ## Contributing
 
