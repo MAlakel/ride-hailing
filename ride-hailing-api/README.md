@@ -22,7 +22,7 @@ Start the server with the following command:
 npm start
 ```  
 
-The API will be available at http://localhost:3000.
+The API will be available at http://localhost:3001.
 
 ## Swagger Documentation
 

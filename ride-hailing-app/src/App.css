@@ -1,0 +1,84 @@
+.container {
+  max-width: 800px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f2f5; /* Light gray background */
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  color: #333; /* Dark gray color */
+  margin-bottom: 20px;
+}
+
+.offer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.offer-card {
+  background-color: #fff; /* White background */
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 80%;
+  max-width: 400px;
+  transition: all 0.3s ease;
+}
+
+.offer-card:hover {
+  transform: translateY(-5px); /* Move card up on hover */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Slightly larger shadow on hover */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.provider {
+  margin: 0;
+  color: #007bff; /* Blue color */
+}
+
+.price {
+  margin: 0;
+  font-weight: bold;
+}
+
+.details {
+  margin-top: 10px;
+}
+
+.car-details,
+.driver-details,
+.duration {
+  margin: 5px 0;
+  color: #555; /* Dark gray color */
+}
+
+.duration {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.loading,
+.error,
+.no-offers {
+  text-align: center;
+  padding: 20px;
+}
+
+.error {
+  color: #ff0000; /* Red color */
+}
+
+.no-offers {
+  color: #888; /* Gray color */
+}
