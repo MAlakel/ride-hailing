@@ -29,7 +29,3 @@ The frontend app, built with React, provides a user interface for users to inter
 ## Contributing
 
 Contributions are welcome! Please create an issue or pull request for any improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
