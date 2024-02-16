@@ -29,7 +29,7 @@ The API will be available at http://localhost:3001.
 You can access the OpenAPI Swagger documentation for this API by visiting:
 
 ```bash
-http://localhost:3000/api
+http://localhost:3001/api
 ```
 
 ## Endpoints
